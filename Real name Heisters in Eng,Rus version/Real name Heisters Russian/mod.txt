@@ -1,0 +1,14 @@
+{
+  "name":"Real Name Heisters - Russian",
+  "description":"replace heisters frome original name",
+  "blt_version":"2",
+  "contact":"zadirakadeep@gmail.com",
+  "author":" zzzzzzzzz",
+  "hooks":
+     [
+	     {
+	 "hook_id":"lib\/managers\/localizationmanager",
+	 "script_path":"template.lua"
+	 }
+   ]
+}	 
