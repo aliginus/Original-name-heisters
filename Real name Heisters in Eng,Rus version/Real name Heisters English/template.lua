@@ -10,7 +10,7 @@ end
 
 local text_original = LocalizationManager.text
     function LocalizationManager:text(string_id, ...)
-	                return string_id == "menu_jowi" and "Jonathan Baba Yaga The Boogeyman" or text_original(self, string_id, ...)
+	                return string_id == "menu_jowi" and "Jonathan" or text_original(self, string_id, ...)
 end					
 
 local text_original = LocalizationManager.text
@@ -20,7 +20,7 @@ end
 
 local text_original = LocalizationManager.text
     function LocalizationManager:text(string_id, ...)
-	                return string_id == "menu_dragan" and "Mr.Zubovic" or text_original(self, string_id, ...)
+	                return string_id == "menu_dragan" and "Zubovic" or text_original(self, string_id, ...)
 end					
 
 local text_original = LocalizationManager.text
@@ -61,7 +61,7 @@ end
 
 local text_original = LocalizationManager.text
     function LocalizationManager:text(string_id, ...)
-	  return string_id == "menu_terry" and "Tony Montana Antonio" or text_original(self, string_id, ...)              
+	  return string_id == "menu_terry" and "Tony Montana" or text_original(self, string_id, ...)              
 end	
 	            
 local text_original = LocalizationManager.text
@@ -78,7 +78,7 @@ end
 end	
 	 local text_original = LocalizationManager.text
     function LocalizationManager:text(string_id, ...)
-	  return string_id == "menu_ecp_female" and "Hila Klein Hila Hakmon" or text_original(self, string_id, ...)              
+	  return string_id == "menu_ecp_female" and "Hila Klein" or text_original(self, string_id, ...)              
 end	
 	 local text_original = LocalizationManager.text
     function LocalizationManager:text(string_id, ...)
