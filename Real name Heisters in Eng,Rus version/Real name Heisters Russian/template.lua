@@ -10,7 +10,7 @@ end
 
 local text_original = LocalizationManager.text
     function LocalizationManager:text(string_id, ...)
-	                return string_id == "menu_jowi" and "Джонатан Баба Яга бугимен" or text_original(self, string_id, ...)
+	                return string_id == "menu_jowi" and "Джонатан" or text_original(self, string_id, ...)
 end					
 
 local text_original = LocalizationManager.text
@@ -20,7 +20,7 @@ end
 
 local text_original = LocalizationManager.text
     function LocalizationManager:text(string_id, ...)
-	                return string_id == "menu_dragan" and "Мр.Зубовик" or text_original(self, string_id, ...)
+	                return string_id == "menu_dragan" and "Зубовик" or text_original(self, string_id, ...)
 end					
 
 local text_original = LocalizationManager.text
@@ -52,13 +52,13 @@ end
 
 local text_original = LocalizationManager.text
     function LocalizationManager:text(string_id, ...)
-	 return string_id == "menu_wild" and "Том Бишоп Сатана" or text_original(self, string_id, ...)               
+	 return string_id == "menu_wild" and "Том Бишоп" or text_original(self, string_id, ...)               
 end	
 
 
 local text_original = LocalizationManager.text
     function LocalizationManager:text(string_id, ...)
-	  return string_id == "menu_terry" and "Тони Монтана Антонио" or text_original(self, string_id, ...)              
+	  return string_id == "menu_terry" and "Тони Монтана" or text_original(self, string_id, ...)              
 end	
 	            
 local text_original = LocalizationManager.text
@@ -75,7 +75,7 @@ end
 end	
 	 local text_original = LocalizationManager.text
     function LocalizationManager:text(string_id, ...)
-	  return string_id == "menu_ecp_female" and "Хила Клейн Хила Хакмон" or text_original(self, string_id, ...)              
+	  return string_id == "menu_ecp_female" and "Хила Клеин" or text_original(self, string_id, ...)              
 end	
             
 	
